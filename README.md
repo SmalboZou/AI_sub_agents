@@ -1,1 +1,4 @@
-AI个人博客
+以AI个人博客前端界面为例，尝试使用TRAE等编程工具模拟claude code的sub agents功能。设置三个agent，分别是产品经理agent，设计师agent，前端开发agent，三个agent均是在一次会话中调用的，单独前端界面效果还可以。后面先尝试分批次在多个会话中配置单独agent进行任务执行，查看效果。然后再尝试Max Mode模式在长上下文中同时调用三个agent。
+
+产品经理生成PRD.md文档供设计师和前端开发agent参考。
+设计师根据PRD.md文档生成设计稿，前端开发agent根据设计稿生成前端代码。
